@@ -1,4 +1,4 @@
-# Cryptocurrency Info
+# Crypto-UIKit-App
 [![Swift Version](https://img.shields.io/badge/Swift-5.5+-F16D39.svg?style=flat)](https://swift.org)
 [![Platforms](https://img.shields.io/badge/platform-iOS-lightgrey.svg)](https://developer.apple.com/swift/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/denissimon/Cryptocurrency-Info/blob/master/LICENSE)
@@ -69,5 +69,3 @@ Xcode: File -> Packages -> Update to Latest Package Versions
 ### Requirements
 
 iOS version support: 17.0+. Xcode 15.0+, Swift 5.5+
-# Crypto-UIKit-App
-# Crypto-UIKit-App
