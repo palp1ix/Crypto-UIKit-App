@@ -28,12 +28,12 @@ It has two modules: AssetsList and AssetDetails. The list of cryptocurrencies is
 - [Reusable data sources][DataSourceLink]
 
 [LayeredArchitectureLink]: https://en.wikipedia.org/wiki/Multitier_architecture
-[MVVMLink]: https://github.com/denissimon/Cryptocurrency-Info/tree/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetDetails
-[FlowCoordinatorLink]: https://github.com/denissimon/Cryptocurrency-Info/tree/master/CryptocurrencyInfo/Coordinator
-[DIContainerLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Coordinator/DIContainer/DIContainer.swift
-[DataBindingLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetsList/ViewModel/AssetsListViewModel.swift
-[ClosureBasedDelegationLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetsList/View/AssetsListDataSource.swift
-[DataSourceLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetDetails/View/AssetDetailsDataSource.swift
+[MVVMLink]: https://github.com/palp1ix/Cryptocurrency-Info/tree/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetDetails
+[FlowCoordinatorLink]: https://github.com/palp1ix/Cryptocurrency-Info/tree/master/CryptocurrencyInfo/Coordinator
+[DIContainerLink]: https://github.com/palp1ix/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Coordinator/DIContainer/DIContainer.swift
+[DataBindingLink]: https://github.com/palp1ix/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetsList/ViewModel/AssetsListViewModel.swift
+[ClosureBasedDelegationLink]: https://github.com/palp1ix/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetsList/View/AssetsListDataSource.swift
+[DataSourceLink]: https://github.com/palp1ix/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetDetails/View/AssetDetailsDataSource.swift
 
 ### Includes
 
@@ -51,13 +51,6 @@ It has two modules: AssetsList and AssetDetails. The list of cryptocurrencies is
 [UserDefaultsLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Data/Persistence/DBInteractor/Settings/UserDefaultsSettingsDBInteractor.swift
 [SwiftDataLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Data/Persistence/DBInteractor/Settings/SwiftDataSettingsDBInteractor.swift
 [CodableLink]: https://github.com/denissimon/Cryptocurrency-Info/blob/master/CryptocurrencyInfo/Modules/AssetsFeature/AssetDetails/Models/Profile.swift
-
-### Built with
-
-- [SwiftEvents](https://github.com/denissimon/SwiftEvents) - The easiest way to implement data binding and notifications. Includes Event\<T\> and Observable\<T\>. Has a thread-safe version.
-- [URLSessionAdapter](https://github.com/denissimon/URLSessionAdapter) - A Codable wrapper around URLSession for networking.
-- [Toast-Swift](https://github.com/scalessec/Toast-Swift) - A Swift extension that adds toast notifications to the UIView object class.
-- [UAObfuscatedString](https://github.com/UrbanApps/UAObfuscatedString) - A simple category to hide sensitive strings from appearing in your binary.
 
 The dependency manager is [Swift Package Manager](https://www.swift.org/documentation/package-manager/). To update package versions: 
 
